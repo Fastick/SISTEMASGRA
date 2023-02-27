@@ -36,7 +36,7 @@ public class RegistroUsuarioControlador {
 	public String mostrarFormularioDeRegistro(Model model) {
 		String estado="PENDIENTE";
 		model.addAttribute("cont",recetaasignadaservice.contador(estado));
-		return "registro";
+		return "/registro";
 	}
 	
 
