@@ -386,7 +386,7 @@ public class Controlador {
 		if (principal instanceof UserDetails) {
 			userDetails = (UserDetails) principal;
 		}
-		@SuppressWarnings("null")
+	
 		String userName = userDetails.getUsername();
 		List<Receta_Asignada> Receta_Asignada = recetaasignadaservice.BuscarRA(userName);
 		model.addAttribute("Receta_Asignada", Receta_Asignada);
@@ -560,7 +560,7 @@ public class Controlador {
 		if (principal instanceof UserDetails) {
 			userDetails = (UserDetails) principal;
 		}
-		@SuppressWarnings("null")
+
 		String userName = userDetails.getUsername();
 		Usuario us = usuarioservice.encontrarUsuario(userName);
 		model.addAttribute("us", us);
@@ -600,7 +600,7 @@ public class Controlador {
 		if (principal instanceof UserDetails) {
 			userDetails = (UserDetails) principal;
 		}
-		@SuppressWarnings("null")
+	
 		String userName = userDetails.getUsername();
 		Usuario us = usuarioservice.encontrarUsuario(userName);
 		model.addAttribute("us", us);
@@ -627,7 +627,7 @@ public class Controlador {
 				if (principal instanceof UserDetails) {
 					userDetails = (UserDetails) principal;
 				}
-				@SuppressWarnings("null")
+			
 				String userName = userDetails.getUsername();
 				Usuario us = usuarioservice.encontrarUsuario(userName);
 				model.addAttribute("us", us);

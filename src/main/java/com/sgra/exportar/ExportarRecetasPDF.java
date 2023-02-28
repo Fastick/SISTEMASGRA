@@ -16,7 +16,6 @@ import com.lowagie.text.pdf.PdfPCell;
 import com.lowagie.text.pdf.PdfPTable;
 import com.lowagie.text.pdf.PdfWriter;
 import com.sgra.modelo.Receta;
-import com.sgra.modelo.RecetaProducto;
 
 @Component("/ReporteRecetas")
 public class ExportarRecetasPDF extends AbstractPdfView {

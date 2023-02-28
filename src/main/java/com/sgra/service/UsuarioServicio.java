@@ -2,8 +2,6 @@ package com.sgra.service;
 
 import java.util.List;
 import java.util.Optional;
-
-import org.springframework.data.repository.query.Param;
 import org.springframework.security.core.userdetails.UserDetailsService;
 
 import com.sgra.controlador.UsuarioRegistroDTO;
